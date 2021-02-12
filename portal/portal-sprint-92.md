@@ -23,8 +23,10 @@ With this release, this should be fixed and products should be correctly added t
 
 #### Enforce permission selection when employees are invited
 
-previously we were facing many issues with wrongly configured employees. In most of these cases, the users forgot to assign default access rights during the invitation.
-To make sure that we make the user aware of assigning the necessary rights, We added claim assignment during the process of invitations of the employee. All roles are shown at the bottom of the page and can be assigned to the employee during the invitation.
+previously we were facing many issues with wrongly configured employees. 
+In most of these cases, the users forgot to assign default access rights during the invitation.
+To make sure that we make the user aware of assigning the necessary rights, We added claim assignment during the process of invitations of the employee. 
+All roles are shown at the bottom of the page and can be assigned to the employee during the invitation.
 Selecting access rights is not mandatory, but if no rights are selected the user will be prompted with a warning that the invited employee will not be able to login as long as no read rights are assigned.
 
 #### Front-end Validation missing in Password Check (All markets)
